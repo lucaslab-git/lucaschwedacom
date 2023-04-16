@@ -1,0 +1,48 @@
+ .container-left {
+    background: #13171c;
+    height: 100vh;
+    color: aliceblue;
+    size: 6;
+    
+}
+.container-right {
+    background: #101317;
+    height: 100vh;
+    color: aliceblue;
+    size: 6;
+    
+}
+
+.aboutme {
+    padding: 5vh;
+    font-size: 3vh;
+}
+
+.typwrt {
+    color:coral;
+}
+
+.txt-aboutme {
+    padding: 2%;
+}
+
+.Comments {
+    margin-left: -2%;
+    font-size: 2.5vw;
+    display: inline-block;
+  }
+  
+.Comment_Icon {
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+.Student_Icon {
+    width: 12%;
+  }
+
+img {
+    border-radius: 10%;
+  }

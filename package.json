@@ -16,9 +16,12 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "bootstrap": "^5.2.3",
     "gatsby": "^5.8.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-bootstrap": "^2.7.4",
+    "react-dom": "^18.2.0",
+    "typewriter-effect": "^2.19.0"
   },
   "devDependencies": {
     "@types/node": "^18.15.11",
