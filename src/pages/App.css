@@ -12,6 +12,35 @@
     size: 6;
     
 }
+.links {
+ padding: 5vh;
+ 
+}
+
+.con-links {
+  padding: 2%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.btnbox {
+  padding: 2%;
+}
+
+.btn {
+  background: coral;
+  margin-top: 10vh;
+  margin-right: 4vh;
+  width: 9vh;
+  height: 9vh;
+  
+}
+.btn:hover {
+  background: #1f2226;
+  color: gray;
+  
+}
 
 .aboutme {
     padding: 5vh;

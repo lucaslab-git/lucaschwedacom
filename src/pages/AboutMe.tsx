@@ -54,6 +54,9 @@ function AboutMe() {
         <button type="button" className="btn">
           Click Me
         </button>
+        <button type="button" className="btn">
+          Click Me
+        </button>
       </div>
     </>
   );

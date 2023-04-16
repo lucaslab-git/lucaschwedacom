@@ -1,6 +1,8 @@
 import * as React from "react";
 import type { HeadFC, PageProps } from "gatsby";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
 import { Col, Container, Row } from "react-bootstrap";
 import AboutMe from "./AboutMe";
 import "./App.css";
