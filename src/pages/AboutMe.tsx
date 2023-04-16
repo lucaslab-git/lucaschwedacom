@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import avatar from "../images/avatar.jpg";
 import Name from "./Name";
 
@@ -35,6 +36,24 @@ function AboutMe() {
         <br />
         <h3>Lucas Lab</h3>
         <p>{txtlucaslab}</p>
+      </div>
+
+      <div className="btnbox">
+        <button type="button" className="btn">
+          Click Me
+        </button>
+        <button type="button" className="btn">
+          Click Me
+        </button>
+        <button type="button" className="btn">
+          Click Me
+        </button>
+        <button type="button" className="btn">
+          Click Me
+        </button>
+        <button type="button" className="btn">
+          Click Me
+        </button>
       </div>
     </>
   );
