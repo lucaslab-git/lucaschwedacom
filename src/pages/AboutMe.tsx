@@ -77,9 +77,7 @@ function AboutMe() {
     auf, sondern auch in der Hardware bzw. tatsächlichen Umsetzung. 
     Mit diversen Projekten wie z.B. einer eigensgebauten Rakete musste ich schon 
     viele Hurden und Aufgaben auf mich nehmen.`;
-  const width = window.innerWidth;
-  // The width below which the mobile view should be rendered
-  const breakpoint = 620;
+
   const txtlucaslab = `
   Als ich 2015 mein erstes Progeamm auf dem Einplatienencomputer RPI3B+ 
   geschrieben haben, hält mich die faszination der Technology fest. 
