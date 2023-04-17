@@ -6,6 +6,7 @@ import Card from "react-bootstrap/Card";
 import { Col, Container, Row } from "react-bootstrap";
 import AboutMe from "./AboutMe";
 import "./App.css";
+import Timeline from "./timeline";
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <Container fluid>
@@ -13,8 +14,8 @@ const IndexPage: React.FC<PageProps> = () => {
         <Col lg={6} className="container-left">
           <AboutMe />
         </Col>
-        <Col lg={6} className="container-right">
-          Projekte
+        <Col lg={6} className="container-right overflow-auto">
+          <Timeline />
         </Col>
       </Row>
     </Container>
