@@ -4,18 +4,18 @@ import avatar from "../images/avatar.jpg";
 import Name from "./Name";
 
 const App = () => {
-  typeof window !== "undefined";
-  const [width, setWidth] = React.useState(window.innerWidth);
+  const [width, setWidth] = React.useState(
+    typeof window !== "undefined" ? window.innerWidth : null
+  );
   const breakpoint = 700;
   React.useEffect(() => {
-    typeof window !== "undefined";
-    const handleResizeWindow = () => setWidth(window.innerWidth);
-    // subscribe to window resize event "onComponentDidMount"
-    window.addEventListener("resize", handleResizeWindow);
-    return () => {
-      // unsubscribe "onComponentDestroy"
-      window.removeEventListener("resize", handleResizeWindow);
-    };
+    if (typeof window !== "undefined") {
+      // add window resize event listener
+      const handleResize = () => setWidth(window.innerWidth);
+      window.addEventListener("resize", handleResize);
+      // remove window resize event listener on cleanup
+      return () => window.removeEventListener("resize", handleResize);
+    }
   }, []);
   if (width > breakpoint) {
     return (
