@@ -7,6 +7,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import AboutMe from "./AboutMe";
 import "./App.css";
 import Timeline from "./timeline";
+
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <Container fluid>
