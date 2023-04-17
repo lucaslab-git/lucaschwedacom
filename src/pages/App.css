@@ -33,12 +33,16 @@
   left: 0;
 }
 .hdproj{
-  position: absolute;
-  bottom: 2vh;
-  margin-left: 20vh;
-  margin-right: 20vh;
-  color: coral;
 
+  bottom: 2vh;
+
+  position: relative;
+  bottom: 2px;
+  color: coral;
+  margin-top: 5vh;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .btn {
   background: coral;
@@ -47,6 +51,7 @@
   
 }
 .btnbox-sm {
+  
   padding: 2%;
   display: flex;
   gap: 3vh;

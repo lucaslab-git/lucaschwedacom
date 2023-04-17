@@ -44,24 +44,12 @@ const App = () => {
   return (
     <>
       <div className="btnbox-sm">
-        <button type="button" className="btn sm">
-          Click Me
-        </button>
-        <button type="button" className="btn sm">
-          Click Me
-        </button>
-        <button type="button" className="btn sm">
-          Click Me
-        </button>
-        <button type="button" className="btn sm">
-          Click Me
-        </button>
-        <button type="button" className="btn sm">
-          Click Me
-        </button>
-        <button type="button" className="btn sm">
-          Click Me
-        </button>
+        <button type="button" className="btn sm"></button>
+        <button type="button" className="btn sm"></button>
+        <button type="button" className="btn sm"></button>
+        <button type="button" className="btn sm"></button>
+        <button type="button" className="btn sm"></button>
+        <button type="button" className="btn sm"></button>
       </div>
       <div className="hdproj">
         <h1>
@@ -76,19 +64,13 @@ function AboutMe() {
   const txtaboutme = `Als ich 2015 mein erstes Progeamm auf dem Einplatienencomputer RPI3B
     geschrieben haben, hält mich die faszination der Technology fest. 
     In den letzten 8 Jahren habe ich vielzählige Projekte selbst entwickelt 
-    und oder betreut. Dabei hält sich meine Wlet nicht in Grenzen der Software 
-    auf, sondern auch in der Hardware bzw. tatsächlichen Umsetzung. 
-    Mit diversen Projekten wie z.B. einer eigensgebauten Rakete musste ich schon 
-    viele Hurden und Aufgaben auf mich nehmen.`;
+    und oder betreut. `;
 
   const txtlucaslab = `
   Als ich 2015 mein erstes Progeamm auf dem Einplatienencomputer RPI3B+ 
   geschrieben haben, hält mich die faszination der Technology fest. 
   In den letzten 8 Jahren habe ich vielzählige Projekte selbst entwickelt 
-  und oder betreut. Dabei hält sich meine Wlet nicht in Grenzen der Software 
-  auf, sondern auch in der Hardware bzw. tatsächlichen Umsetzung. 
-  Mit diversen Projekten wie z.B. einer eigensgebauten Rakete musste ich schon 
-  viele Hurden und Aufgaben auf mich nehmen.`;
+  und oder betreut. `;
 
   return (
     <>
