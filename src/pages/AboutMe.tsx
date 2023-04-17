@@ -2,6 +2,7 @@ import * as React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import avatar from "../images/avatar.jpg";
 import Name from "./Name";
+const isBrowser = typeof window !== "undefined";
 const App = () => {
   const [width, setWidth] = React.useState(window.innerWidth);
   const breakpoint = 700;
