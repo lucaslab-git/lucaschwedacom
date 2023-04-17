@@ -8,6 +8,7 @@ const App = () => {
   const [width, setWidth] = React.useState(window.innerWidth);
   const breakpoint = 700;
   React.useEffect(() => {
+    typeof window !== "undefined";
     const handleResizeWindow = () => setWidth(window.innerWidth);
     // subscribe to window resize event "onComponentDidMount"
     window.addEventListener("resize", handleResizeWindow);
