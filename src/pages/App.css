@@ -24,56 +24,27 @@
   left: 0;
 }
 
-.btnbox {
-  padding: 2%;
-  display: flex;
-  gap: 3vh;
-  position: absolute;
-  bottom: 0;
-  left: 0;
+.cont-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.hdproj{
-
-  bottom: 2vh;
-
-  position: relative;
-  bottom: 2px;
-  color: coral;
-  margin-top: 5vh;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+.Row {
+    position:absolute;
+    bottom:2%;
 }
 .btn {
-  background: coral;
-  width: 6vw;
-  height: 6vw;
-  
+  background: #101317;
+  width: 10vh;
+  height: 10vh;
+  margin: 2vh;
 }
-.btnbox-sm {
-  
-  padding: 2%;
-  display: flex;
-  gap: 3vh;
-  position: absolute;
-  bottom: 10vh;
-  margin-bottom: 2vh;
-  justify-content: center;
+.coll {
+    gap: 50px;
 }
 
-.sm {
-  background: coral;
-  width: 10vw;
-  height: 10vw;
-  
-}
-.btn-sm:hover {
-  background: #1f2226;
-  color: gray;
-  
-}
 .btn:hover {
-  background: #1f2226;
+  background: coral;
   color: gray;
   
 }
@@ -112,7 +83,10 @@ img {
     border-radius: 10%;
   }
 
-  .timeline {
+.ico {
+    width: 100%;
+}
+.timeline {
     position: relative;
     background: #101317;
     -webkit-border-radius: 4px;
@@ -122,7 +96,7 @@ img {
     margin: 0 auto 1rem auto;
     overflow: hidden;
 }
-.timeline:after {
+.timeline:after { /* Content Links (Oranger Punkt und Box) */
     content: "";
     position: absolute;
     top: 0;
@@ -137,12 +111,12 @@ a:after, a:before, a:hover, a { text-decoration: none; color: aliceblue;}
   box-shadow: 0 0 11px rgb(128, 128, 128, 0.5); 
   transition: box-shadow 0.3s ease-in-out;
 }
-.timeline-row {
+.timeline-row { /* Layout */
     padding-left: 50%;
     position: relative;
     margin-bottom: 30px;
 }
-.timeline-row .timeline-time {
+.timeline-row .timeline-time { /* Layout Datum */
     position: absolute;
     right: 50%;
     top: 15px;
@@ -151,11 +125,11 @@ a:after, a:before, a:hover, a { text-decoration: none; color: aliceblue;}
     color: aliceblue;
     font-size: 1.5rem;
 }
-.timeline-row .timeline-time small {
+.timeline-row .timeline-time small { /* Jahr */
     display: block;
     font-size: 0.8rem;
 }
-.timeline-row .timeline-content {
+.timeline-row .timeline-content { /* Layout Boxen */
     position: relative;
     padding: 20px 30px;
     background: #13171c;
@@ -169,7 +143,7 @@ a:after, a:before, a:hover, a { text-decoration: none; color: aliceblue;}
     text-align: center;
 }
 
-.timeline-row .timeline-content:before {
+.timeline-row .timeline-content:before { /* Oreanger Punkt */
     content: "";
     position: absolute;
     top: 20px;
@@ -183,65 +157,59 @@ a:after, a:before, a:hover, a { text-decoration: none; color: aliceblue;}
     background: coral;
     border: 2px solid coral;
 }
-.timeline-row .timeline-content h4 {
-    margin: 0 0 20px 0;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    line-height: 150%;
-}
-.timeline-row .timeline-content p {
-    margin-bottom: 30px;
-    line-height: 150%;
-}
-.timeline-row .timeline-content i {
-    font-size: 1.2rem;
-    line-height: 100%;
-    padding: 15px;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-    border-radius: 100px;
-    background: #272e48;
-    margin-bottom: 10px;
-    display: inline-block;
-}
-.timeline-row:nth-child(even) .timeline-content {
+
+.timeline-row:nth-child(even) .timeline-content { /* Content Rechts (Oranger Punkt und Box) */
     margin-left: 40px;
     text-align: left;
 }
-.timeline-row:nth-child(even) .timeline-content:after {
-    left: -8px;
-    right: initial;
-    border-bottom: 0;
-    border-left: 0;
-    transform: rotate(-135deg);
-}
-.timeline-row:nth-child(even) .timeline-content:before {
+
+.timeline-row:nth-child(even) .timeline-content:before { /* Oranger Punkt*/
     left: -52px;
     right: initial;
 }
-.timeline-row:nth-child(odd) {
+.timeline-row:nth-child(odd) { /*Content Links */
     padding-left: 0;
     padding-right: 50%;
 }
-.timeline-row:nth-child(odd) .timeline-time {
+.timeline-row:nth-child(odd) .timeline-time { /* Rechts Datum */
     right: auto;
     left: 50%;
     text-align: left;
     margin-right: 0;
     margin-left: 20px;
 }
-.timeline-row:nth-child(odd) .timeline-content {
+.timeline-row:nth-child(odd) .timeline-content { /* Content Links (Oranger Punkt und Box) */
     margin-right: 40px;
 }
-.timeline-row:nth-child(odd) .timeline-content:after {
-    right: -8px;
-    border-left: 0;
-    border-bottom: 0;
-    transform: rotate(45deg);
-}
+
 
 @media (max-width: 992px) {
+    .Comment_Icon {
+        padding: 2%;
+        display: contents;
+        margin-left: -5px;
+        width: 100%;
+      }
+      .Comments {
+        width: 100%;
+        padding: 2%;
+      }
+      
+      .aboutme {
+        padding: 2%;
+        font-size: 3vh;
+    }
+      .Student_Icon {
+        width: 30%;
+        padding: 2%;
+        padding-top: 5%;
+      }
+    .btn {
+        background: #101317;
+        width: 7vh;
+        height: 7vh;
+        margin: 1vh;
+      }
     .timeline {
         padding: 15px;
     }
