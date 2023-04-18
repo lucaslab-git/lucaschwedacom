@@ -9,7 +9,7 @@ function Name() {
         <div className="typwrt">
           <Typewriter
             options={{
-              strings: ["Entwickler", "Coder", "Filmmaker"],
+              strings: ["Entwickler", "Coder"],
               autoStart: true,
               loop: true,
             }}
