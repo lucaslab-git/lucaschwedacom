@@ -4,9 +4,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { Col, Container, Row } from "react-bootstrap";
-import AboutMe from "./AboutMe";
-import "./App.css";
-import Timeline from "./timeline";
+import AboutMe from "./Indexpage/Personel";
+import "../pages/Indexpage/App.css";
+import Timeline from "../pages/Indexpage/timeline";
 
 const IndexPage: React.FC<PageProps> = () => {
   return (

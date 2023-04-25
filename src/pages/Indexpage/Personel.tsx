@@ -1,10 +1,12 @@
 import * as React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
-import avatar from "../images/avatar.jpg";
-import Github from "../images/Github.png";
-import YT from "../images/YT.png";
-import Instagram from "../images/Instagram.svg";
-import Name from "./Name";
+import avatar from "../../images/Indexpage/avatar.jpg";
+import Github from "../../images/Indexpage/Github.png";
+import YT from "../../images/Indexpage/YT.png";
+import Instagram from "../../images/Indexpage/Instagram.svg";
+import Typewriter from "typewriter-effect";
+
+import "../Indexpage/Personel.css";
 
 function AboutMe() {
   const txtaboutme = `Als ich 2015 mein erstes Progeamm auf dem Einplatienencomputer RPI3B+ 
@@ -25,15 +27,26 @@ auf, sondern auch in der Hardware bzw. `;
         <img src={avatar} className="Student_Icon"></img>
 
         <div className="Comments">
-          <Name />
+          <div className="aboutme">
+            Hi, ich bin Luca Schweda
+            <div className="contrast-col">
+              <Typewriter
+                options={{
+                  strings: ["Entwickler", "Coder"],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </div>
+          </div>
         </div>
       </div>
 
       <div className="txt-aboutme">
-        <h3>About Me</h3>
+        <h3 className="contrast-col">About Me</h3>
         <p>{txtaboutme}</p>
         <br />
-        <h3>Lucas Lab</h3>
+        <h3 className="contrast-col">Lucas Lab</h3>
         <p>{txtlucaslab}</p>
       </div>
 
@@ -45,19 +58,19 @@ auf, sondern auch in der Hardware bzw. `;
             </button>
 
             <button type="button" className="btn">
-              <img src={YT} className="ico"></img>
+              <img src={Github} className="ico"></img>
             </button>
 
             <button type="button" className="btn">
-              <img src={Instagram} className="ico"></img>
+              <img src={Github} className="ico"></img>
             </button>
 
             <button type="button" className="btn">
-              <img src={YT} className="ico"></img>
+              <img src={Github} className="ico"></img>
             </button>
 
             <button type="button" className="btn">
-              <img src={Instagram} className="ico"></img>
+              <img src={Github} className="ico"></img>
             </button>
           </Col>
         </Row>

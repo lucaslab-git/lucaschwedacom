@@ -1,6 +1,5 @@
 import { Link } from "gatsby";
 import * as React from "react";
-import Impressum from "./DSVGO/Impressum";
 
 function TimeWebsite() {
   return (
@@ -8,7 +7,7 @@ function TimeWebsite() {
       <div className="timeline-time">
         Apr 17<small>2023</small>
       </div>
-      <Link to="DSVGO/Impressum">
+      <Link to="Projects/PA-R2/PA-R2">
         <div className="timeline-content raise">
           <h4>Website</h4>
           <p>
