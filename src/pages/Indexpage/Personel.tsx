@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
-import avatar from "../../images/Indexpage/avatar.jpg";
+import avatar from "../../images/Indexpage/Logo.png";
 import Github from "../../images/Indexpage/Github.png";
 import YT from "../../images/Indexpage/YT.png";
 import Instagram from "../../images/Indexpage/Instagram.svg";
@@ -53,25 +53,42 @@ auf, sondern auch in der Hardware bzw. `;
       <Container className="cont-btn">
         <Row className="Row">
           <Col>
-            <button type="button" className="btn">
+            <a
+              type="button"
+              className="btn"
+              href="https://github.com/lucaslab-git"
+            >
               <img src={Github} className="ico"></img>
-            </button>
+            </a>
 
-            <button type="button" className="btn">
+            <a
+              type="button"
+              className="btn"
+              href="https://github.com/lucaslab-git"
+            >
               <img src={Github} className="ico"></img>
-            </button>
-
-            <button type="button" className="btn">
+            </a>
+            <a
+              type="button"
+              className="btn"
+              href="https://github.com/lucaslab-git"
+            >
               <img src={Github} className="ico"></img>
-            </button>
-
-            <button type="button" className="btn">
+            </a>
+            <a
+              type="button"
+              className="btn"
+              href="https://github.com/lucaslab-git"
+            >
               <img src={Github} className="ico"></img>
-            </button>
-
-            <button type="button" className="btn">
+            </a>
+            <a
+              type="button"
+              className="btn"
+              href="https://github.com/lucaslab-git"
+            >
               <img src={Github} className="ico"></img>
-            </button>
+            </a>
           </Col>
         </Row>
       </Container>

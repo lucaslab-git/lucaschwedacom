@@ -50,8 +50,8 @@ img {
     position: absolute;
     top: 0;
     left: 50%;
-    margin-left: -2px;
-    border-right: 2px solid #1f2226;
+    margin-left: -3px;
+    border-right: 3px dotted #1b1f22;
     height: 100%;
     display: block;
 }
