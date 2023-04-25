@@ -1,0 +1,185 @@
+.container-left {
+    background: rgb(30, 39, 44);
+    height: 100vh;
+    color: aliceblue;
+    size: 6;
+    
+}
+
+.container-right {
+    background: #263238;
+    height: 100vh;
+    size: 6;
+    
+}
+.links {
+ padding: 5vh;
+ 
+}
+
+.con-links {
+  padding: 2%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.Student_Icon {
+    width: 12%;
+  }
+
+img {
+    border-radius: 10%;
+  }
+
+.ico {
+    width: 100%;
+}
+.timeline {
+    position: relative;
+    background: rgb(38, 50, 56);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 14px;
+    padding: 5rem;
+    margin: 0 auto 1rem auto;
+    overflow: hidden;
+    
+}
+.timeline:after { /* Content Links (Oranger Punkt und Box) */
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -2px;
+    border-right: 2px solid #1f2226;
+    height: 100%;
+    display: block;
+}
+a:after, a:before, a:hover, a { text-decoration: none; color: aliceblue;}
+
+.raise {
+    transition: box-shadow 0.3s ease-in-out;
+}
+.raise:hover {
+    
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); 
+  transition: box-shadow 0.3s ease-in-out;
+}
+.timeline-row { /* Layout */
+    padding-left: 50%;
+    position: relative;
+    margin-bottom: 30px;
+}
+.timeline-row .timeline-time { /* Layout Datum */
+    position: absolute;
+    right: 50%;
+    top: 15px;
+    text-align: right;
+    margin-right: 20px;
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+.timeline-row .timeline-time small { /* Jahr */
+    display: block;
+    font-size: 0.8rem;
+}
+.timeline-row .timeline-content { /* Layout Boxen */
+    position: relative;
+    padding: 20px 30px;
+    background: #1e272c;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.timeline-row .timeline-content:before { /* Oreanger Punkt */
+    content: "";
+    position: absolute;
+    top: 20px;
+    right: -49px;
+    width: 20px;
+    height: 20px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    z-index: 10;
+    background: rgb(255, 115, 64);
+    border: 2px solid rgb(255, 115, 64);
+}
+
+.timeline-row:nth-child(even) .timeline-content { /* Content Rechts (Oranger Punkt und Box) */
+    margin-left: 40px;
+    text-align: left;
+}
+
+.timeline-row:nth-child(even) .timeline-content:before { /* Oranger Punkt*/
+    left: -52px;
+    right: initial;
+}
+.timeline-row:nth-child(odd) { /*Content Links */
+    padding-left: 0;
+    padding-right: 50%;
+}
+.timeline-row:nth-child(odd) .timeline-time { /* Rechts Datum */
+    right: auto;
+    left: 50%;
+    text-align: left;
+    margin-right: 0;
+    margin-left: 20px;
+}
+.timeline-row:nth-child(odd) .timeline-content { /* Content Links (Oranger Punkt und Box) */
+    margin-right: 40px;
+}
+
+
+@media (max-width: 992px) {
+    
+    .timeline {
+        padding: 15px;
+    }
+    .timeline:after {
+        border: 0;
+    }
+    .timeline .timeline-row:nth-child(odd) {
+        padding: 0;
+    }
+    .timeline .timeline-row:nth-child(odd) .timeline-time {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 0 0 10px 0;
+    }
+    .timeline .timeline-row:nth-child(odd) .timeline-content {
+        margin: 0;
+    }
+    .timeline .timeline-row:nth-child(odd) .timeline-content:before {
+        display: none;
+    }
+    .timeline .timeline-row:nth-child(odd) .timeline-content:after {
+        display: none;
+    }
+    .timeline .timeline-row:nth-child(even) {
+        padding: 0;
+    }
+    .timeline .timeline-row:nth-child(even) .timeline-time {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 0 0 10px 0;
+        text-align: left;
+    }
+    .timeline .timeline-row:nth-child(even) .timeline-content {
+        margin: 0;
+    }
+    .timeline .timeline-row:nth-child(even) .timeline-content:before {
+        display: none;
+    }
+    .timeline .timeline-row:nth-child(even) .timeline-content:after {
+        display: none;
+    }
+}
