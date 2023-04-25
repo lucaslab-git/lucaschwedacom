@@ -1,17 +1,19 @@
 import * as React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import Conleft from "./Contentleft";
+import "./PA-R2.css";
+import Information from "./Information";
+import Scrollview from "./Scrollview";
 
 function PAR2() {
   return (
     <>
       <Container fluid>
         <Row>
-          <Col lg={6} className="container-left">
-            <Conleft />
+          <Col lg={4} className="container-left">
+            <Information />
           </Col>
-          <Col lg={6} className="container-right overflow-auto">
-            Right
+          <Col lg={8} className="container-right overflow-auto">
+            <Scrollview />
           </Col>
         </Row>
       </Container>

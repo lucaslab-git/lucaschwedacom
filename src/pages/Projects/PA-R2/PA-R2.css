@@ -1,0 +1,70 @@
+.heading {  
+    padding: 2%;
+    font-size: 4vh;
+    color: aliceblue;
+}
+
+.Typewriter{
+    color: #f15b29;
+}
+
+.container-left {
+    background: rgb(30, 39, 44);
+    height: 100vh;
+    color: aliceblue;
+    size: 6;
+    
+}
+
+.container-right {
+    background: #263238;
+    height: 100vh;
+    size: 6;
+    
+}
+
+.container-scrollview {
+    background: #263238;
+    size: 6;
+    
+}
+
+h4{
+    padding: 2%;
+}
+
+h2{
+    color: #f15b29;
+    padding: 2%;
+}
+
+p{
+    color: aliceblue;
+    padding: 2%;
+}
+
+.scrollview {
+    overflow: hidden;
+    padding: 2%;
+    
+}
+
+.img-left {
+    float: left;
+    height: 30vh;
+    padding: 2%;
+    border-radius: 18px;
+}
+
+.img-right {
+    float: right;
+    height: 30vh;
+    padding: 2%;
+    border-radius: 18px;
+}
+
+.data{
+    padding: 2%;
+    color: aliceblue;
+    font-size: 2vh;
+}
