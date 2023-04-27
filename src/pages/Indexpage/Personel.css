@@ -22,9 +22,11 @@
   
   .txt-aboutme {
     padding: 2%;
+    font-size: 2vh;
 }
 .contrast-col {
     color: rgb(255, 115, 64);
+    font-size: 2.5vh;
 }
 
 .cont-btn{

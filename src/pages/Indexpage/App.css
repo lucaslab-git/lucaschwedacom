@@ -43,6 +43,7 @@ img {
     padding: 5rem;
     margin: 0 auto 1rem auto;
     overflow: hidden;
+    font-size: 1.5vh;
     
 }
 .timeline:after { /* Content Links (Oranger Punkt und Box) */
@@ -69,6 +70,7 @@ a:after, a:before, a:hover, a { text-decoration: none; color: aliceblue;}
     padding-left: 50%;
     position: relative;
     margin-bottom: 30px;
+    
 }
 .timeline-row .timeline-time { /* Layout Datum */
     position: absolute;
@@ -81,7 +83,7 @@ a:after, a:before, a:hover, a { text-decoration: none; color: aliceblue;}
 }
 .timeline-row .timeline-time small { /* Jahr */
     display: block;
-    font-size: 0.8rem;
+    font-size: 1.5vh;
 }
 .timeline-row .timeline-content { /* Layout Boxen */
     position: relative;
@@ -136,6 +138,9 @@ a:after, a:before, a:hover, a { text-decoration: none; color: aliceblue;}
     margin-right: 40px;
 }
 
+h4 {
+    font-size: 2vh;
+}
 
 @media (max-width: 992px) {
     

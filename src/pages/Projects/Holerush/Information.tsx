@@ -8,7 +8,7 @@ function Contentleft() {
       <div className="heading">
         <Typewriter
           options={{
-            strings: ["Project PA-R2"],
+            strings: ["Project Hole.rush"],
             autoStart: true,
             loop: true,
           }}
@@ -53,8 +53,8 @@ function Contentleft() {
           </li>
           <ul>
             <li>
-              <Link className="projects" to="../../Holerush/Holerush">
-                Holerush{" "}
+              <Link className="projects" to="../../PA-R2/PA-R2">
+                PA-R2{" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="14"
