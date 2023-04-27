@@ -2,24 +2,21 @@ import * as React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import avatar from "../../images/Indexpage/Logo.png";
 import Github from "../../images/Indexpage/Github.png";
-import YT from "../../images/Indexpage/YT.png";
-import Instagram from "../../images/Indexpage/Instagram.svg";
+import Youtube from "../../images/Indexpage/Youtube.png";
+import Instagram from "../../images/Indexpage/Instagram.png";
 import Typewriter from "typewriter-effect";
 
 import "../Indexpage/Personel.css";
 
 function AboutMe() {
-  const txtaboutme = `Als ich 2015 mein erstes Progeamm auf dem Einplatienencomputer RPI3B+ 
-  geschrieben haben, hält mich die faszination der Technology fest. 
-  In den letzten 8 Jahren habe ich vielzählige Projekte selbst entwickelt 
-  und oder betreut. `;
+  const txtaboutme = `Seit ich 2015 mit dem programmieren begonnnen habe setze ich unzählige Projekte um.
+  Die meisten Projekte lösen alltagsprobleme wie z.B. den bau einer Monitorhalterung etc. 
+  Allerdings setze ich auch großere Projekte um wie z.B. meine eigenst gebaute Rakete usw. `;
 
   const txtlucaslab = `
-Als ich 2015 mein erstes Progeamm auf dem Einplatienencomputer RPI3B+ 
-geschrieben haben, hält mich die faszination der Technology fest. 
-In den letzten 8 Jahren habe ich vielzählige Projekte selbst entwickelt 
-und oder betreut. Dabei hält sich meine Wlet nicht in Grenzen der Software 
-auf, sondern auch in der Hardware bzw. `;
+  Seit ich 2015 mit dem programmieren begonnnen habe setze ich unzählige Projekte um.
+  Die meisten Projekte lösen alltagsprobleme wie z.B. den bau einer Monitorhalterung etc. 
+  Allerdings setze ich auch großere Projekte um wie z.B. meine eigenst gebaute Rakete usw.`;
 
   return (
     <>
@@ -59,6 +56,7 @@ auf, sondern auch in der Hardware bzw. `;
               href="https://github.com/lucaslab-git"
             >
               <img src={Github} className="ico"></img>
+              <p className="txtico">Github</p>
             </a>
 
             <a
@@ -66,7 +64,16 @@ auf, sondern auch in der Hardware bzw. `;
               className="btn"
               href="https://github.com/lucaslab-git"
             >
-              <img src={Github} className="ico"></img>
+              <img src={Youtube} className="ico"></img>
+              <p className="txtico">YT</p>
+            </a>
+            <a
+              type="button"
+              className="btn"
+              href="https://www.instagram.com/lucaschweda/"
+            >
+              <img src={Instagram} className="ico"></img>
+              <p className="txtico">Insta</p>
             </a>
             <a
               type="button"
@@ -74,6 +81,7 @@ auf, sondern auch in der Hardware bzw. `;
               href="https://github.com/lucaslab-git"
             >
               <img src={Github} className="ico"></img>
+              <p className="txtico">Github</p>
             </a>
             <a
               type="button"
@@ -81,13 +89,7 @@ auf, sondern auch in der Hardware bzw. `;
               href="https://github.com/lucaslab-git"
             >
               <img src={Github} className="ico"></img>
-            </a>
-            <a
-              type="button"
-              className="btn"
-              href="https://github.com/lucaslab-git"
-            >
-              <img src={Github} className="ico"></img>
+              <p className="txtico">Github</p>
             </a>
           </Col>
         </Row>

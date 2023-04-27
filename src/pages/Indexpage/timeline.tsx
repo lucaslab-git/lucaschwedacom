@@ -31,7 +31,7 @@ function timeline() {
           </div>
           <div className="timeline-row ">
             <div className="timeline-time">
-              Sep 24<small>2022</small>
+              May 12<small>2020</small>
             </div>
             <Link rel="icon" to="Projects/Holerush/Holerush">
               <div className="timeline-content raise">

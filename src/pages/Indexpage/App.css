@@ -31,8 +31,17 @@ img {
     border-radius: 10%;
   }
 
+
 .ico {
-    width: 100%;
+    width: 65%;
+    opacity: 80%;
+    
+}
+.txtico{
+    color: #14191e;
+    font-size: 2vh;
+    margin: auto;
+   
 }
 .timeline {
     position: relative;
@@ -143,7 +152,10 @@ h4 {
 }
 
 @media (max-width: 992px) {
-    
+    .txtico{
+        color: #14191e;
+        font-size: 1.5vh;
+    }
     .timeline {
         padding: 15px;
     }
