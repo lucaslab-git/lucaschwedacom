@@ -18,21 +18,20 @@ function Contentleft() {
         <br />
         <h4>Details</h4>
         <ul>
-          <li>Test</li>
-          <li>Test</li>
-          <li>Test</li>
-          <li>Test</li>
-          <li>Test</li>
+          <li>Build time: 200 Std.</li>
+          <li>Print time: 98 Std.</li>
+          <li>Price: 60€</li>
+          <li>Engine: Klima D9-5</li>
+          <li>Height: 78 cm</li>
         </ul>
 
         <br />
         <h4>Launch Data</h4>
         <ul>
-          <li>Test</li>
-          <li>Test</li>
-          <li>Test</li>
-          <li>Test</li>
-          <li>Test</li>
+          <li>Filght height: 200 m</li>
+          <li>Flight time: 15 s</li>
+          <li>Search time: 10 Std.</li>
+          <li>Flight distance: 1 km</li>
         </ul>
         <br></br>
         <h4>Other Projects</h4>
@@ -66,10 +65,10 @@ function Contentleft() {
                 </svg>
               </Link>
             </li>
-            <li>Test</li>
-            <li>Test</li>
-            <li>Test</li>
-            <li>Test</li>
+            <li>-</li>
+            <li>-</li>
+            <li>-</li>
+            <li>-</li>
           </ul>
         </ul>
       </div>

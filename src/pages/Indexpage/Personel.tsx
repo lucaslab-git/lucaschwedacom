@@ -9,14 +9,14 @@ import Typewriter from "typewriter-effect";
 import "../Indexpage/Personel.css";
 
 function AboutMe() {
-  const txtaboutme = `Seit ich 2015 mit dem programmieren begonnnen habe setze ich unzählige Projekte um.
-  Die meisten Projekte lösen alltagsprobleme wie z.B. den bau einer Monitorhalterung etc. 
-  Allerdings setze ich auch großere Projekte um wie z.B. meine eigenst gebaute Rakete usw. `;
+  const txtaboutme = `Seit ich 2015 mit dem Programmieren begonnen habe, habe ich unzählige Projekte umgesetzt.
+  Die meisten Projekte lösen alltägliche Probleme wie den Bau einer Monitorhalterung usw.
+  Ich realisiere aber auch größere Projekte wie meine selbstgebaute Rakete usw.`;
 
   const txtlucaslab = `
-  Seit ich 2015 mit dem programmieren begonnnen habe setze ich unzählige Projekte um.
-  Die meisten Projekte lösen alltagsprobleme wie z.B. den bau einer Monitorhalterung etc. 
-  Allerdings setze ich auch großere Projekte um wie z.B. meine eigenst gebaute Rakete usw.`;
+  Seit ich 2015 mit dem Programmieren begonnen habe, habe ich unzählige Projekte umgesetzt.
+  Die meisten Projekte lösen alltägliche Probleme wie den Bau einer Monitorhalterung usw. 
+  Ich realisiere aber auch größere Projekte wie meine selbstgebaute Rakete usw.`;
 
   return (
     <>
@@ -29,7 +29,7 @@ function AboutMe() {
             <div className="contrast-col">
               <Typewriter
                 options={{
-                  strings: ["Entwickler", "Coder"],
+                  strings: ["Entwickler", "Coder", "und vieles mehr"],
                   autoStart: true,
                   loop: true,
                 }}
